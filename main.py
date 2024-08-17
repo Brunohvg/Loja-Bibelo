@@ -21,7 +21,6 @@ def main(page:ft.Page):
                     content=ft.Stack(
                         controls=[
                             _top(),
-                            
                         ]
                     )
                 )
