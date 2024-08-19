@@ -36,7 +36,7 @@
     <!-- FIM FAde-->
 
     <!-- passos -->
-    <div id="order-from-container" class="container px-md-0">
+    <div id="order-form-container" class="container px-md-0">
         <div id="steps" class="mb-md-3 pd-md-3">
             <div class="line"></div>
             <div class="step">
@@ -52,8 +52,26 @@
                 <p class="d-none d-md-block">Pagamento</p>
             </div>
         </div>
+        <!-- FIM passos-->
+        <div id="form-header">
+            <h2>Cadastre o seu endereço</h2>
+            <p>Preencha os campos para podermos enviar os seus produtos</p>
+        </div>
+        <form id="address-form">
+            <div class="row mb-3">
+                <div class="col">
+                    <div class="form-floating">
+                        <input type="text" class="form-control shadow-none" id="cep" name="cep" 
+                               placeholder="Digite seu CEP" minlength="8" maxlength="8" 
+                               pattern="\d{8}" required />
+                        <label for="cep">Digite seu CEP</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
     </div>
-    <!-- FIM passos-->
+    </div>
 </body>
 
 </html>
